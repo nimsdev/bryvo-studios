@@ -420,69 +420,13 @@ We provide an assortment of different web services. So far, we have created soci
        <i class="fa fa-envelope-o"></i>  info@bryvostudios.com<br><br></center>
    <br>  
         <center>	
-		<div id="button" style="padding:0 autp;margin:0 auto;">
+		    <a class="aboutme" href="/contact.php">Contact Us</a>
+
             
-<input type="submit" class="contactbutton" value="Contact Us"/></div>
+            
 	</center><br>
-	<div id="popupContact">
-		<a id="popupContactClose" style="font-weight:bold;color:#ff406d;font-size:24pt;text-transform:lowercase;letter-spacing:-4px;padding-right:10px;">--</a>
-			<script>
-	$(function() {
-	  $('a[href*=#]:not([href=#])').click(function() {
-	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 
-	      var target = $(this.hash);
-	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	      if (target.length) {
-	        $('html,body').animate({
-	          scrollTop: target.offset().top
-	        }, 1000);
-	        return false;
-	      }
-	    }
-	  });
-	});
-	</script>
-
-
-<?php 
-$action=$_REQUEST['action']; 
-if ($action=="")    /* display the contact form */ 
-    { 
-    ?>
-  
- <br><br>
-    <form  action="" method="POST" enctype="multipart/form-data"> 
-    <input type="hidden" name="action" value="submit"> 
-    <input class="caero" name="name" type="text" placeholder="Name or Phone Number" value="" size="30"/><br> 
-    <input class="caero" name="email" type="text" placeholder="Your Email" value="" size="30"/><br> 
-    <textarea class="caero" name="message" placeholder="Leave us a Message" rows="5" cols="30"></textarea><br>
-    <input type="submit" class="button" style="width:95%;outline:none;"value="Email Us!"/><br><br>
-
-    </form> <br>
-    
-    <?php 
-    }  
-else                /* send the submitted data */ 
-    { 
-    $name=$_REQUEST['name']; 
-    $email=$_REQUEST['email']; 
-    $message=$_REQUEST['message']; 
-    if (($name=="")||($email=="")||($message=="")) 
-        { 
-        echo "All fields are required, please fill <a href=\"\"> the form </a> again."; 
-        } 
-    else{         
-        $from="From: $name<$email>\r\nReturn-path: $email"; 
-        $subject="Message sent using your contact form"; 
-        mail("Quity1992@cuvox.de", $subject, $message, $from); 
-        echo "Email sent!"; 
-        } 
-    }   
-?> 
-
-	</div>
-	<div id="backgroundPopup"></div>
+	
     
        <!--- oldcontact bebeh --->
  
@@ -502,7 +446,7 @@ else                /* send the submitted data */
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
         
         
-<<<<<<< HEAD
+<!----<<<<<<< HEAD
 <<<<<<< HEAD
          <script src="/wow/dist/wow.min.js"></script>
 =======
@@ -511,6 +455,8 @@ else                /* send the submitted data */
 =======
          <script src="/bryvo-studios/wow/dist/wow.min.js"></script>
 >>>>>>> origin/gh-pages
+---->
+
   <script>
     wow = new WOW(
       {
