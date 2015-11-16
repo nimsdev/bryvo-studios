@@ -420,7 +420,7 @@ We provide an assortment of different web services. So far, we have created soci
        <i class="fa fa-envelope-o"></i>  info@bryvostudios.com<br><br></center>
    <br>  
         <center>	
-		    <a class="aboutme" href="/contact.php">Contact Us</a>
+		    <a class="aboutme" style="border-color:#111;" href="/contact.php">Contact Us</a>
 
             
             
