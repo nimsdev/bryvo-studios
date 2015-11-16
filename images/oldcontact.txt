@@ -1,0 +1,26 @@
+ <h1 id="contactsection"></h1><br><br><br><br>
+   <br><br>    
+    <br><br><br>   
+     <div class="contacttext">
+ <section class="wow fadeInRight" data-wow-offset="100" style="height:auto;">
+        <div class="support"><br><br><br>
+        Have a question? Ask us anything! <br><br><br>
+       
+       Our support team will do our best to respond within 24 hours.<br><br><br>
+        <i class="fa fa-map-marker"></i>  Ottawa/Kanata, ON, Canada <br><br>
+       
+  <i class="fa fa-envelope-o"></i>  info@bryvostudios.com<br><br>
+       
+<!-- <i class="fa fa-phone"></i> --> <br><br>
+       </div>
+         </section>
+         
+       <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89729.09486123295!2d-75.93533814999998!3d45.34812160000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccdff86df946877%3A0x286ff73092245b34!2sKanata%2C+Ottawa%2C+ON!5e0!3m2!1sen!2sca!4v1443395379325" width="450" height="250" frameborder="0" style="border:0" allowfullscreen></iframe> --->
+       
+    </div>   
+        <section class="wow fadeInLeft" data-wow-offset="10" style="height:auto;">
+    <input type="text" class="contact" placeholder="Your Name" /><br><br>
+    <input type="text" class="contact" style="outline:0 !important;" placeholder="Your Email"><br>
+        <textarea class="contact" placeholder="Leave Your Message!"></textarea><br><br>
+        <a href="" class="contactbutton">Contact Us!</a>
+       </section>
