@@ -412,7 +412,7 @@ We provide an assortment of different web services. So far, we have created soci
     
    <div class="contactbottom">
        <h1 id="contactsection"></h1><br><br><br><br>
-   <br><br>      <div class="spacer5" style="color:white;">
+   <br><br>      <div class="spacer5">
 Have a question? Ask us anything! <br>
        
        Our support team will do our best to respond within 24 hours.<br><br>
