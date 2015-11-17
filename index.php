@@ -412,19 +412,19 @@ We provide an assortment of different web services. So far, we have created soci
     
    <div class="contactbottom">
        <h1 id="contactsection"></h1><br><br><br><br>
-   <br><br>   <center style="font-size:16pt !important;">Have a question? Ask us anything! <br><br><br>
+   <br><br>      <div class="spacer5" style="color:white;">
+Have a question? Ask us anything! <br>
        
-       Our support team will do our best to respond within 24 hours.<br><br><br>
-        <i class="fa fa-map-marker"></i>  Ottawa/Kanata, ON, Canada <br><br>
+       Our support team will do our best to respond within 24 hours.<br><br>
+        <i class="fa fa-map-marker"></i>  Ottawa/Kanata, ON, Canada <br>
        
-       <i class="fa fa-envelope-o"></i>  info@bryvostudios.com<br><br></center>
-   <br>  
-        <center>	
+       <i class="fa fa-envelope-o"></i>  info@bryvostudios.com<br><br>
+       <br>  
 		    <a class="aboutme" style="border-color:#111;" href="/contact.php">Contact Us</a>
 
+       </div>
             
-            
-	</center><br>
+	
 
 	
     
