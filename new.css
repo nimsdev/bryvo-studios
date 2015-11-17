@@ -579,16 +579,15 @@ background:url(images/office3.jpg) no-repeat;
 background-size:100% 100%;
 height:755px;    
 color:#b5b5b5;
-font-size:14pt;
+font-size:16pt;
 letter-spacing:2px;
 position:relative;
+padding-top:15%;
+text-align:left !important;
+text-shadow:2px 2px #111;
+
 }
 
-div.contactbottom h1{
-font-size:18pt;
-color:#f0ead6;
-font-weight:100;
-}
 
 p.separator{
 width:75%;
